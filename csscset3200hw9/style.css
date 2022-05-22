@@ -1,0 +1,53 @@
+h1{
+  font-size: 4rem;
+  color: #92140C;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+body{
+  font-size: 1.3rem;
+  line-height: 1.65;
+  font-family: sans-serif;
+  color #1E1E24;
+  background-color: #FFF8F0;
+  margin: 2rem;
+}
+/* c1 wont align no matter what I try */
+
+.columns {
+  column-count: 4;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  alignment: bottom;
+
+
+}
+.c1{
+  background-color: red;
+}
+.c2{
+  background-color: yellow;
+}
+.c3{
+  background-color: blue;
+}
+.c4{
+  background-color: violet;
+}
+.C1{
+  background-color: #fecccc;
+}
+.C2 {
+  background-color: #fefecc;
+}
+.C3{
+  background-color: #ccccfe;
+}
+.C4 {
+  background-color:#ebcefc ;
+}
+.foot{
+  text-align: center;
+  font-size: small;
+}
+/* can make login class*/

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>King Mail</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+<div id=" wrapper">
+    <header>
+        <div id="logo">
+            <img src="kinglogo.png" >
+        </div>
+    </header>
+    <div class="banner">
+    </div>
+
+
+
+</div> <!-- end wrapper-->
+<h1>Welcome to King Email</h1>
+
+
+<form class="contact-form" id="form" action="contactform.php" method="post">
+    <!--
+    Stage0: log in. {
+     HOST SMTP (outlook.offic365.com)
+     PORT: 587
+     FROM: (uname)
+     PASSWORD:(unamepw)
+     LOG IN!
+    }
+    Stage1: {
+    VERIFY LOG-IN
+    }
+    Stage2:{
+     SEND TO
+     SUBJECT
+     BODY(message)
+     (use hose, port, from, password from above)
+     }
+     -->
+
+    <input type="text" name="smtpAddr" placeholder="SMTP Address">
+    <input type="text" name="smtpPort" placeholder="Port">
+    <input type="text" name="uname" placeholder="Username">
+    <input type="password" name="password" placeholder="Password">
+    <button type="button" name="login" >LOGIN</button>
+</form>
+
+
+<!--<p2>email address </p2> <textarea id="uName"> </textarea> <br>-->
+<!--<p2>password</p2><textarea id="pWord"> </textarea><br>-->
+<!--<p2>smtp client address (ex: outlook.office365.com)</p2> <textarea id="smptAddr"></textarea><br>-->
+
+
+
+
+
+<!--    <div>-->
+<!--        <label for="pWord">Password: </label>-->
+<!--        <input id="pWord" name="pWord" type="password">-->
+<!--    </div>-->
+<!--    <div>-->
+<!--        <label for="smptAddr">SMTP address: </label>-->
+<!--        <input id="smptAddr" name="smptAddr" type="text">-->
+<!--    </div>-->
+<!--    <div>-->
+<!--        <label for="smtpPort">SMTP port: </label>-->
+<!--        <input id="smtpPort" name="smtpPort" type="text">-->
+<!--    </div>-->
+<!--    <div>-->
+<!--        <button type="submit">Submit</button>-->
+<!--    </div>-->
+<!--</form>-->
+
+
+</body>
+</html>
